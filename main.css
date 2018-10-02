@@ -1,0 +1,154 @@
+
+.nav-pills{
+    display : flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: rgb(255, 117, 4) !important;
+    font-family : 'PartyBusiness' !important;
+    font-size: 2em;
+  
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+.text-light{
+    color: rgb(255, 117,4) !important;
+}
+
+.nav-link:hover{
+    text-decoration : underline;
+
+}
+
+.precious {
+    height: 60px;
+    width: 60px;
+    border: 8px solid;
+    border-radius: 50%;
+    border-color: #ff6600;
+  }
+  
+  .bigone {
+    height: 120px;
+    width: 120px;
+    border: 8px solid;
+    border-radius: 50%;
+    border-color: yellow;
+    box-shadow: inset 10px 10px 10px yellow, 10px 10px 10px yellow;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 6em;
+  }
+  
+  .onering {
+    transform: translateY(24%);
+  }
+  
+  .ring-1 {
+    width: 24px;
+    height: 24px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 18px;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+  }
+  
+  .ring-2 {
+    width: 48px;
+    height: 48px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 36px;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+  }
+  
+  .ring-3 {
+    width: 72px;
+    height: 72px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 54px;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+  }
+  
+  .ring-4 {
+    width: 96px;
+    height: 96px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 72px;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+  }
+  
+  .ring-5 {
+    width: 120px;
+    height: 120px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 90px;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+  }
+  
+  .ring-6 {
+    width: 144px;
+    height: 144px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 108px;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+  }
+
+.forring {
+    position: absolute;
+    left: 24%;
+  }
+
+.please{
+    margin-left: 30%;
+    padding-top: 12%;
+}

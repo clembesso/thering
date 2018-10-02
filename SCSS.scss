@@ -1,0 +1,58 @@
+$color-orange : #ff6600;
+
+
+@mixin ring ($height, $width, $color) {
+    height: $height;
+    width: $width;
+    border: 8px solid;
+    border-radius: 50%;
+    border-color: $color;
+}
+
+.precious{
+@include ring(60px, 60px, $color-orange);
+}
+
+.bigone{
+@include ring(120px, 120px, yellow);
+box-shadow: inset 10px 10px 10px yellow, 10px 10px 10px yellow;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 6em;
+}
+
+.onering{
+  transform: translateY(24%);
+}
+
+
+@for $i from 1 through 6 {
+    .ring-#{$i} {
+    width: 24px*$i;
+    height: 24px*$i;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: grey;
+    position: absolute;
+    left: 18px*$i;
+    transform: translateY(-25%);
+    display: flex;
+    box-shadow: inset 10px 10px 10px grey, 10px 10px 10px grey;
+
+    }
+}
+
+.forring{
+  position: absolute;
+  right: 60%;
+  
+}
+
+
+
+
+
+
